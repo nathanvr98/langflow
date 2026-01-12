@@ -270,7 +270,7 @@ AWS_MODELS_DETAILED = [
   ]
 
   # Generate backwards-compatible list from the metadata
-WS_MODEL_IDs = [metadata["name"] for metadata in AWS_MODELS_DETAILED]
+AWS_MODEL_IDs = [metadata["name"] for metadata in AWS_MODELS_DETAILED]
 
 AWS_EMBEDDING_MODEL_IDS = [
       # Amazon Titan Embedding Models
